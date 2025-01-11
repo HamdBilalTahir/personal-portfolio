@@ -45,7 +45,7 @@ const Header = () => {
         Menu
       </button>
       <header
-        className={`fixed top-0 w-full flex flex-col md:flex-row justify-between items-center p-4 md:p-8 bg-black ${
+        className={`fixed top-0 w-full flex flex-col md:flex-row justify-end items-center p-4 md:p-8 bg-black ${
           isHeaderVisible ? "block" : "hidden"
         } md:block`}
       >
@@ -58,7 +58,7 @@ const Header = () => {
             &times;
           </button>
         </div>
-        <nav className="text-base md:text-lg">
+        <nav className="text-base md:text-lg flex justify-end">
           <ul className="flex flex-col items-center md:flex-row space-y-2 md:space-y-0 md:space-x-6">
             <li
               className={

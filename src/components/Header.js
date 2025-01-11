@@ -39,7 +39,7 @@ const Header = () => {
   return (
     <>
       <button
-        className="md:hidden p-2 text-white"
+        className="md:hidden p-2 text-white font-bold"
         onClick={() => setIsHeaderVisible(!isHeaderVisible)}
       >
         Menu

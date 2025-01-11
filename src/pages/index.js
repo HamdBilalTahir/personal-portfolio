@@ -14,14 +14,17 @@ export default function Home() {
         />
       </Head>
       <Header />
-      <main className="flex flex-col items-center justify-center">
-        <section id="home" className="min-h-screen flex items-center">
-          <div className="flex flex-col items-start mr-8">
+      <main className="flex flex-col items-center justify-center px-4">
+        <section
+          id="home"
+          className="min-h-screen flex flex-col md:flex-row items-center"
+        >
+          <div className="flex flex-col items-start mr-0 md:mr-8 mb-8 md:mb-0">
             <h2 className="text-[#ffbd39] text-lg font-semibold tracking-wider mb-4 animate-fadeInUp">
               HELLO!
             </h2>
             <div className="flex items-center space-x-2">
-              <h1 className="text-white text-5xl font-extrabold mb-4 animate-fadeInUp">
+              <h1 className="text-white text-4xl md:text-5xl font-extrabold mb-4 animate-fadeInUp">
                 {"I'm"}
               </h1>
               <h1 className="text-[#ffbd39] text-5xl font-extrabold mb-4 animate-fadeInUp">
@@ -53,7 +56,7 @@ export default function Home() {
             <img
               src="/images/dp.png"
               alt="Profile Picture"
-              className="w-128 h-128 animate-fadeInUp"
+              className="w-64 h-64 md:w-128 md:h-128 animate-fadeInUp"
             />
           </div>
         </section>
@@ -255,7 +258,7 @@ export default function Home() {
             Far far away, behind the word mountains, far from the countries
             Vokalia and Consonantia.
           </p>
-          <div className="grid grid-cols-3 gap-4 mt-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-8">
             {Array.from({ length: 6 }, (_, i) => (
               <div key={i} className="bg-gray-800 p-4 rounded">
                 <img
@@ -313,7 +316,7 @@ export default function Home() {
             Far far away, behind the word mountains, far from the countries
             Vokalia and Consonantia.
           </p>
-          <div className="grid grid-cols-3 gap-4 mt-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-8">
             {[
               {
                 title: "Why Lead Generation is Key for Business Growth",

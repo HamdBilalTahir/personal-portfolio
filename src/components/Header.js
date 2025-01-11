@@ -36,10 +36,10 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="fixed top-0 w-full flex justify-between items-center p-8 bg-black">
-      <h1 className="text-3xl font-bold text-white">HAMD</h1>
-      <nav className="text-lg">
-        <ul className="flex space-x-6">
+    <header className="fixed top-0 w-full flex justify-between items-center p-4 md:p-8 bg-black">
+      <h1 className="text-2xl md:text-3xl font-bold text-white">HAMD</h1>
+      <nav className="text-base md:text-lg">
+        <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6">
           <li
             className={
               activeSection === "home"

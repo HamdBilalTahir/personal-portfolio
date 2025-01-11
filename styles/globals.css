@@ -21,3 +21,8 @@ body {
   background: var(--background);
   font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
+
+.custom-list {
+  list-style-type: disc;
+  list-style-position: inside;
+}

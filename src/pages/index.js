@@ -22,7 +22,7 @@ export default function Home() {
             </h2>
             <div className="flex items-center space-x-2">
               <h1 className="text-white text-5xl font-extrabold mb-4 animate-fadeInUp">
-                I'm
+                {"I'm"}
               </h1>
               <h1 className="text-[#ffbd39] text-5xl font-extrabold mb-4 animate-fadeInUp">
                 Hamd Bilal Tahir
@@ -250,7 +250,7 @@ export default function Home() {
           id="projects"
           className="min-h-screen flex flex-col items-center justify-center"
         >
-          <h1 className="text-white text-5xl font-extrabold">Our Projects</h1>
+          <h1 className="text-white text-5xl font-extrabold">My Projects</h1>
           <p className="text-xl mt-4">
             Far far away, behind the word mountains, far from the countries
             Vokalia and Consonantia.
@@ -272,30 +272,35 @@ export default function Home() {
           id="skills"
           className="min-h-screen flex flex-col items-center justify-center"
         >
-          <h1 className="text-white text-5xl font-extrabold">My Skills</h1>
-          <p className="text-xl mt-4">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia.
-          </p>
-          <div className="w-full max-w-2xl mt-8">
-            {[
-              { skill: "Photoshop", level: "90%" },
-              { skill: "HTML5", level: "95%" },
-              { skill: "WordPress", level: "70%" },
-            ].map((skill, index) => (
-              <div key={index} className="mt-4">
-                <div className="flex justify-between">
-                  <span>{skill.skill}</span>
-                  <span>{skill.level}</span>
-                </div>
-                <div className="bg-gray-800 h-2 rounded-full">
-                  <div
-                    className="bg-[#ffbd39] h-2 rounded-full"
-                    style={{ width: skill.level }}
-                  ></div>
-                </div>
-              </div>
-            ))}
+          <h1 className="text-white text-5xl font-extrabold">
+            My Skills & Tools
+          </h1>
+          <div className="w-full max-w-2xl mt-8 grid grid-cols-2 gap-8">
+            <div className="flex flex-col items-center">
+              <h2 className="text-[#ffbd39] text-3xl font-bold mb-4">Skills</h2>
+              <ul className="custom-list pl-5">
+                <li>Gen AI</li>
+                <li>Machine Learning</li>
+                <li>SQL</li>
+                <li>Python</li>
+                <li>MERN Stack</li>
+                <li>Operations Planning</li>
+                <li>Pilot/Driver Operations</li>
+                <li>Supply-Demand Harmony</li>
+              </ul>
+            </div>
+            <div className="flex flex-col items-center">
+              <h2 className="text-[#ffbd39] text-3xl font-bold mb-4">Tools</h2>
+              <ul className="custom-list pl-5">
+                <li>PowerBI</li>
+                <li>Metabase</li>
+                <li>Microsoft Azure</li>
+                <li>Confluence</li>
+                <li>Notion</li>
+                <li>JIRA</li>
+                <li>AWS Athena</li>
+              </ul>
+            </div>
           </div>
         </section>
 

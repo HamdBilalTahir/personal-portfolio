@@ -60,39 +60,188 @@ export default function Home() {
 
         <section
           id="resume"
-          className="min-h-screen flex flex-col items-center justify-center"
+          className="min-h-screen flex flex-col items-center justify-center px-4"
         >
           <h1 className="text-white text-5xl font-extrabold">Resume</h1>
-          <p className="text-xl mt-4">
-            A small river named Duden flows by their place and supplies it with
-            the necessary regelialia.
-          </p>
-          <div className="grid grid-cols-2 gap-4 mt-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-8 max-w-7xl w-full">
             <div className="bg-[#1A1A1A] p-4 rounded">
               <h2 className="text-[#ffbd39] text-2xl font-bold mb-4">
-                2014-2015
+                10/2022 - Present
               </h2>
-              <h3 className="text-2xl mb-4">Master Degree of Design</h3>
-              <p className="text-[#A3A3A3] text-xl mb-4">
-                Cambridge University
-              </p>
-              <p>
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia.
-              </p>
+              <h3 className="text-2xl mb-4">Product Manager - AI/ML</h3>
+              <p className="text-[#A3A3A3] text-xl mb-4">CAFU - Dubai, UAE</p>
+              <ul className="list-disc pl-5">
+                <li>
+                  Built a Gen AI Sales Assistant that automated lead sourcing,
+                  personalized email outreach, and lead qualification,
+                  streamlining the TOF sales process and reducing reliance on
+                  human SDRs.
+                </li>
+                <li>
+                  Developed a Gen AI Data Insights Assistant that centralized
+                  operations data sources, added a semantic layer, and provided
+                  actionable insights via a conversational chatbot, transforming
+                  operational decision-making processes.
+                </li>
+                <li>
+                  Built ML-based ETA engine for CAFU operations, improving ETA
+                  accuracy by 26% and achieving 81% on-time pilot deliveries by
+                  A/B testing and comparative analysis methodologies.
+                </li>
+                <li>
+                  Integrated the ETA engine across platforms (customer mobile
+                  app, pilot mobile app, operations portal & routing engine),
+                  enhancing customer UI/UX & pilot evaluation via ETA vs. ATA
+                  analysis and building a pilot performance framework based on
+                  ETA.
+                </li>
+                <li>
+                  Developed the demand hotspots model to empower pilot
+                  operations, guiding pilots to high-demand areas, and reducing
+                  pilot idle time.
+                </li>
+                <li>
+                  Built the demand prediction model to achieve demand-supply
+                  harmony in CAFU operations, automating pilot and truck
+                  allocation, and improving operational efficiency by 35%.
+                </li>
+                <li>
+                  Created an image classification LLM model to rate carwash
+                  quality, providing feedback to pilots and enhancing service
+                  standards, hence improving carwash operations.
+                </li>
+                <li>
+                  Used image classification LLM for cross-selling, guiding
+                  pilots via the pilot app to capture fuel vehicle images,
+                  triggering CRM comms, adding 1,500 weekly carwash customers.
+                </li>
+                <li>
+                  Implemented ML-based live demand detector, identifying
+                  real-time demand shifts and recommending proactive live ops
+                  adjustments of operational slot caps.
+                </li>
+                <li>
+                  Built a Data Science segmentation-based order prioritization
+                  engine that mapped orders to priority for CAFU operational
+                  efficiency.
+                </li>
+              </ul>
             </div>
             <div className="bg-[#1A1A1A] p-4 rounded">
               <h2 className="text-[#ffbd39] text-2xl font-bold mb-4">
-                2014-2015
+                01/2021 - 10/2022
               </h2>
-              <h3 className="text-2xl mb-4">Art & Creative Director</h3>
+              <h3 className="text-2xl mb-4">Co-Founder & Product Manager</h3>
               <p className="text-[#A3A3A3] text-xl mb-4">
-                Cambridge University
+                DevNation (EdTech - raised $175K) - Lahore, Pakistan
               </p>
-              <p>
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia.
+              <ul className="list-disc pl-5">
+                <li>Established product policies around the company.</li>
+                <li>
+                  Allocated the budget and resources for tech initiatives &
+                  products.
+                </li>
+                <li>
+                  Managed human, financial, and material resources of the
+                  company.
+                </li>
+                <li>
+                  Established the central departments and associated senior
+                  staff positions, KPIs, and milestones and track their
+                  performances.
+                </li>
+                <li>
+                  Selected middle managers, directors, & other executive staff
+                  and provide them autonomy to execute their jobs.
+                </li>
+                <li>
+                  Led all product development and tech innovation, user journey
+                  mapping, building digital products for consumers, using Agile.
+                </li>
+                <li>
+                  Worked with corporate clients to meet all tech needs & digital
+                  transformation.
+                </li>
+                <li>
+                  Represented DevNation in fundraising (raising $175k
+                  investment).
+                </li>
+                <li>
+                  Led Web Development initiatives and validate business use
+                  cases.
+                </li>
+                <li>
+                  Led the Product sprints in DevNation via the use of Agile
+                  (Jira) frameworks.
+                </li>
+              </ul>
+            </div>
+            <div className="bg-[#1A1A1A] p-4 rounded">
+              <h2 className="text-[#ffbd39] text-2xl font-bold mb-4">
+                08/2019 - 09/2021
+              </h2>
+              <h3 className="text-2xl mb-4">
+                Data Science Tech Lead Consultant
+              </h3>
+              <p className="text-[#A3A3A3] text-xl mb-4">
+                PwC Digital Services Middle East - Dubai, UAE
               </p>
+              <ul className="list-disc pl-5">
+                <li>
+                  Acted as a Data Analytics, Data Science & Software Consultant
+                  for various organizations and tech clients of PwC - worked
+                  directly in Digital Transformation of Big Business and
+                  Enterprise.
+                </li>
+                <li>
+                  Dealt with PwC clients and was involved in POC creation,
+                  negotiations, resource planning, use case delivery, and
+                  support, defining key SOPs for the project pipeline.
+                </li>
+                <li>
+                  Leveraged web development skills with React, Node, Typescript,
+                  Agile Frameworks to develop TAMM, the United Arab Emirates’
+                  government services customer-facing portal.
+                </li>
+                <li>
+                  Utilized knowledge of Microsoft Power BI and data science to
+                  develop internal tools for the Abu Dhabi Digital Authority,
+                  Marks & Spencer, Kiabi Retail & Telco.
+                </li>
+                <li>
+                  Applied experience with Microsoft Luis (natural language
+                  processing engine), Microsoft Azure Services, and Python to
+                  develop a customer service chatbot for the banking sector.
+                </li>
+              </ul>
+            </div>
+            <div className="bg-[#1A1A1A] p-4 rounded">
+              <h2 className="text-[#ffbd39] text-2xl font-bold mb-4">
+                08/2018- 03/2019
+              </h2>
+              <h3 className="text-2xl mb-4">Data Scientist - Bioinformatics</h3>
+              <p className="text-[#A3A3A3] text-xl mb-4">
+                Shanghai Joye Biotech - Shanghai, China
+              </p>
+              <ul className="list-disc pl-5">
+                <li>
+                  Performed descriptive data analysis, machine learning using
+                  Python, R.
+                </li>
+                <li>
+                  Performed Differentially Expressed Gene Analysis on Patient
+                  Data.
+                </li>
+                <li>
+                  Peformed ceRNA, lncRNA-miRNA-mRNA interaction network in
+                  Cytoscape and dendrogram creation using R and Python scripts.
+                </li>
+                <li>
+                  Provided Machine Learning insights into liver, lung, and
+                  breast cancer to hospital clients so they can improve their
+                  treatment.
+                </li>
+              </ul>
             </div>
           </div>
         </section>

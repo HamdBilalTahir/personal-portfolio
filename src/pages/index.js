@@ -14,21 +14,30 @@ export default function Home() {
         />
       </Head>
       <Header />
-      <main className="flex flex-col items-center justify-center mt-20">
-        <h2 className="text-yellow-500 text-lg mb-4">HELLO!</h2>
-        <h1 className="text-5xl font-bold mb-4">I'm Hamd Bilal Tahir</h1>
-        <p className="text-xl mb-8">An AI Product Manager</p>
-        <div className="flex space-x-4">
-          <Link href="/contact">
-            <button className="bg-yellow-500 text-black px-6 py-3 rounded">
-              HIRE ME
-            </button>
-          </Link>
-          <Link href="/projects">
-            <button className="border border-yellow-500 text-yellow-500 px-6 py-3 rounded">
-              MY WORKS
-            </button>
-          </Link>
+      <main className="flex items-center justify-center mt-20">
+        <div className="flex flex-col items-start mr-8">
+          <h2 className="text-yellow-500 text-lg mb-4">HELLO!</h2>
+          <h1 className="text-5xl font-bold mb-4">I'm Hamd Bilal Tahir</h1>
+          <p className="text-xl mb-8">An AI Product Manager</p>
+          <div className="flex space-x-4">
+            <Link href="/contact">
+              <button className="bg-yellow-500 text-black px-6 py-3 rounded">
+                HIRE ME
+              </button>
+            </Link>
+            <Link href="/projects">
+              <button className="border border-yellow-500 text-yellow-500 px-6 py-3 rounded">
+                MY WORKS
+              </button>
+            </Link>
+          </div>
+        </div>
+        <div>
+          <img
+            src="/images/dp.png"
+            alt="Profile Picture"
+            className="w-128 h-128"
+          />
         </div>
       </main>
     </div>

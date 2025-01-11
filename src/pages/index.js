@@ -38,7 +38,7 @@ export default function Home() {
                     .getElementById("contact")
                     .scrollIntoView({ behavior: "smooth", block: "start" })
                 }
-                className="bg-yellow-500 font-bold text-black text-sm px-6 py-3 rounded-full"
+                className="bg-[#ffbd39] font-bold text-black text-sm px-6 py-3 rounded-full"
               >
                 HIRE ME
               </button>
@@ -68,19 +68,27 @@ export default function Home() {
             the necessary regelialia.
           </p>
           <div className="grid grid-cols-2 gap-4 mt-8">
-            <div className="bg-gray-800 p-4 rounded">
-              <h2 className="text-yellow-500 text-lg">2014-2015</h2>
-              <h3 className="text-xl font-bold">Master Degree of Design</h3>
-              <p>Cambridge University</p>
+            <div className="bg-[#1A1A1A] p-4 rounded">
+              <h2 className="text-[#ffbd39] text-2xl font-bold mb-4">
+                2014-2015
+              </h2>
+              <h3 className="text-2xl mb-4">Master Degree of Design</h3>
+              <p className="text-[#A3A3A3] text-xl mb-4">
+                Cambridge University
+              </p>
               <p>
                 A small river named Duden flows by their place and supplies it
                 with the necessary regelialia.
               </p>
             </div>
-            <div className="bg-gray-800 p-4 rounded">
-              <h2 className="text-yellow-500 text-lg">2014-2015</h2>
-              <h3 className="text-xl font-bold">Art & Creative Director</h3>
-              <p>Cambridge University</p>
+            <div className="bg-[#1A1A1A] p-4 rounded">
+              <h2 className="text-[#ffbd39] text-2xl font-bold mb-4">
+                2014-2015
+              </h2>
+              <h3 className="text-2xl mb-4">Art & Creative Director</h3>
+              <p className="text-[#A3A3A3] text-xl mb-4">
+                Cambridge University
+              </p>
               <p>
                 A small river named Duden flows by their place and supplies it
                 with the necessary regelialia.
@@ -133,7 +141,7 @@ export default function Home() {
                 </div>
                 <div className="bg-gray-800 h-2 rounded-full">
                   <div
-                    className="bg-yellow-500 h-2 rounded-full"
+                    className="bg-[#ffbd39] h-2 rounded-full"
                     style={{ width: skill.level }}
                   ></div>
                 </div>

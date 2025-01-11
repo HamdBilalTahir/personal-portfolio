@@ -17,9 +17,20 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center">
         <section id="home" className="min-h-screen flex items-center">
           <div className="flex flex-col items-start mr-8">
-            <h2 className="text-yellow-500 text-lg mb-4">HELLO!</h2>
-            <h1 className="text-5xl font-bold mb-4">I'm Hamd Bilal Tahir</h1>
-            <p className="text-xl mb-8">An AI Product Manager</p>
+            <h2 className="text-[#ffbd39] text-lg font-semibold tracking-wider mb-4 animate-fadeInUp">
+              HELLO!
+            </h2>
+            <div className="flex items-center space-x-2">
+              <h1 className="text-white text-5xl font-extrabold mb-4 animate-fadeInUp">
+                I'm
+              </h1>
+              <h1 className="text-[#ffbd39] text-5xl font-extrabold mb-4 animate-fadeInUp">
+                Hamd Bilal Tahir
+              </h1>
+            </div>
+            <p className="text-2xl mb-8 animate-fadeInUp">
+              An AI Product Manager
+            </p>
             <div className="flex space-x-4">
               <button
                 onClick={() =>
@@ -27,12 +38,12 @@ export default function Home() {
                     .getElementById("contact")
                     .scrollIntoView({ behavior: "smooth", block: "start" })
                 }
-                className="bg-yellow-500 text-black px-6 py-3 rounded"
+                className="bg-yellow-500 font-bold text-black text-sm px-6 py-3 rounded-full"
               >
                 HIRE ME
               </button>
               <Link href="#projects" onClick={(e) => e.preventDefault()}>
-                <button className="border border-yellow-500 text-yellow-500 px-6 py-3 rounded">
+                <button className="border border-white font-bold text-white text-sm px-6 py-3 rounded-full">
                   MY WORKS
                 </button>
               </Link>
@@ -42,7 +53,7 @@ export default function Home() {
             <img
               src="/images/dp.png"
               alt="Profile Picture"
-              className="w-128 h-128"
+              className="w-128 h-128 animate-fadeInUp"
             />
           </div>
         </section>
@@ -51,7 +62,7 @@ export default function Home() {
           id="resume"
           className="min-h-screen flex flex-col items-center justify-center"
         >
-          <h1 className="text-5xl font-bold">Resume</h1>
+          <h1 className="text-white text-5xl font-extrabold">Resume</h1>
           <p className="text-xl mt-4">
             A small river named Duden flows by their place and supplies it with
             the necessary regelialia.
@@ -82,7 +93,7 @@ export default function Home() {
           id="projects"
           className="min-h-screen flex flex-col items-center justify-center"
         >
-          <h1 className="text-5xl font-bold">Our Projects</h1>
+          <h1 className="text-white text-5xl font-extrabold">Our Projects</h1>
           <p className="text-xl mt-4">
             Far far away, behind the word mountains, far from the countries
             Vokalia and Consonantia.
@@ -104,7 +115,7 @@ export default function Home() {
           id="skills"
           className="min-h-screen flex flex-col items-center justify-center"
         >
-          <h1 className="text-5xl font-bold">My Skills</h1>
+          <h1 className="text-white text-5xl font-extrabold">My Skills</h1>
           <p className="text-xl mt-4">
             Far far away, behind the word mountains, far from the countries
             Vokalia and Consonantia.
@@ -135,7 +146,7 @@ export default function Home() {
           id="blog"
           className="min-h-screen flex flex-col items-center justify-center"
         >
-          <h1 className="text-5xl font-bold">Our Blog</h1>
+          <h1 className="text-white text-5xl font-extrabold">Our Blog</h1>
           <p className="text-xl mt-4">
             Far far away, behind the word mountains, far from the countries
             Vokalia and Consonantia.
@@ -183,7 +194,9 @@ export default function Home() {
           className="min-h-screen flex flex-col items-center justify-center"
         >
           <div className="container mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-4">Contact Me</h2>
+            <h2 className="text-white text-4xl font-extrabold mb-4">
+              Contact Me
+            </h2>
             <p className="mb-8">
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia

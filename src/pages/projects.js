@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Header from "../components/Header";
 
 export default function Projects() {
   return (
@@ -7,21 +8,7 @@ export default function Projects() {
         <title>Projects - Hamd Bilal Tahir</title>
         <meta name="description" content="Projects by Hamd Bilal Tahir" />
       </Head>
-      <header className="flex justify-between items-center p-5">
-        <h1 className="text-2xl font-bold">HAMD</h1>
-        <nav>
-          <ul className="flex space-x-4">
-            <li>Home</li>
-            <li>About</li>
-            <li>Resume</li>
-            <li>Services</li>
-            <li>Skills</li>
-            <li>Projects</li>
-            <li>My Blog</li>
-            <li>Contact</li>
-          </ul>
-        </nav>
-      </header>
+      <Header />
       <main className="flex flex-col items-center justify-center">
         <h1 className="text-5xl font-bold">Our Projects</h1>
         <p className="text-xl mt-4">

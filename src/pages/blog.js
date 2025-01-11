@@ -1,6 +1,7 @@
 import Head from "next/head";
 
 import Link from "next/link";
+import Header from "../components/Header";
 
 const blogPosts = [
   {
@@ -36,37 +37,7 @@ export default function Blog() {
         <title>Blog - Hamd Bilal Tahir</title>
         <meta name="description" content="Blog by Hamd Bilal Tahir" />
       </Head>
-      <header className="flex justify-between items-center p-5">
-        <h1 className="text-2xl font-bold">HAMD</h1>
-        <nav>
-          <ul className="flex space-x-4">
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="/about">About</Link>
-            </li>
-            <li>
-              <Link href="/resume">Resume</Link>
-            </li>
-            <li>
-              <Link href="/services">Services</Link>
-            </li>
-            <li>
-              <Link href="/skills">Skills</Link>
-            </li>
-            <li>
-              <Link href="/projects">Projects</Link>
-            </li>
-            <li>
-              <Link href="/blog">My Blog</Link>
-            </li>
-            <li>
-              <Link href="/contact">Contact</Link>
-            </li>
-          </ul>
-        </nav>
-      </header>
+      <Header />
       <main className="flex flex-col items-center justify-center">
         <h1 className="text-5xl font-bold">Our Blog</h1>
         <p className="text-xl mt-4">

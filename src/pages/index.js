@@ -56,7 +56,7 @@ export default function Home() {
             <img
               src="/images/dp.png"
               alt="Profile Picture"
-              className="mt-10 w-128 h-128 md:w-128 md:h-128 animate-fadeInUp"
+              className="mt-12 w-128 h-128 md:w-128 md:h-128 animate-fadeInUp"
             />
           </div>
         </section>
